@@ -35,9 +35,9 @@
 		</table>
 	</p>
 <form name="login_form">
-	<label for="name">Login</label>
+	<label for="name">Email</label>
 	<br>
-	<input type="text" id="name" name="username">
+	<input type="email" id="name" name="username" required>
 	
 	<br>
 
@@ -61,7 +61,7 @@
 	<label>Metall</label>
 	<input type="checkbox">
 	<label>Post-apocalptic-dethmetal</label>
-	<input type="checkbox">
+	<input type="checkbox" autofocus>
 
 	<hr>
 
@@ -78,5 +78,19 @@
 	<hr>
 
 </form>
+
+<form>
+	<button type="submit">Simple button</button>
+	<input type="file">
+	<hr>
+	<input type="date">
+	<hr>
+	<label for="search">Search</label>
+	<input type="search" id="search" name="search" placeholder="Search">
+	<hr>
+	<label for="range">Range Type</label>
+	<input type="range" id="range" name="range">
+</form>
+
 </body>
 </html>
